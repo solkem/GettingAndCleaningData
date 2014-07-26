@@ -32,3 +32,4 @@ for(i in 1:6)
 
 average_activity_subject
   
+write.table(average_activity_subject,file="tidy_data.txt")
