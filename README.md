@@ -16,7 +16,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The zip file will extract to a number of data and meta data text files.
 
-###The R Script and Tidy Data
+###The R Script 
 
 An R script reads data files and applies of transformations to obtain tidy data. Operations applied to the data include:
 
@@ -28,5 +28,10 @@ An R script reads data files and applies of transformations to obtain tidy data.
 6. Attaching Labels to Activity Values
 7. Writing the Tidy Data to file
 
+###Tidy Data
+
+The tidy data text file (tidy_data.txt) is the result of applying tidy data principles to the raw data. It contains Subjects grouped by all possible activities performed measuring the mean and standard deviations of a number of factors.
+
+
 ###Code Book
-A codeblock detailing the data, variables and code scripts used is also attached
+A codeblock detailing the data, variables and code scripts used is also attached. It lists the input and output data, variables used as well as sequence of transformations applied to the data.
